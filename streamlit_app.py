@@ -2,7 +2,7 @@ import openai
 import streamlit as st
 
 # Set your OpenAI API key here
-openai.api_key = "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"  # Replace with your actual API key
+openai.api_key = "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"  # Replace with your actual API key
 
 def display_existing_messages():
     if "messages" not in st.session_state:
